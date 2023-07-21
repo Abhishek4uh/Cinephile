@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Cinephile</string>
+    <string name="title_home">Movies</string>
+    <string name="title_dashboard">Shows</string>
+    <string name="title_watchlist">Watchlist</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tv_fragment">TV-Show</string>
+    <string name="movie_fragment">Movie</string>
+    <string name="todo_fragment">Coming Soon....</string>
+    <string name="category">Category</string>
+    <string name="black_panther">Black Panther</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="no_overview"> No overview Available for this </string>
+
+    <string name="not_available"> Not Available </string>
+
+    <string name="this_is"> This is</string>
+
+    <string name="connect_to_internet">Please connect to the internet</string>
+
+
+    <string name="splash_title"><font color="#FF61D591">Movies &amp; Shows...</font></string>
+
+</resources>

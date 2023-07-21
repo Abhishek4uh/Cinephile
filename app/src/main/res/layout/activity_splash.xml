@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Splash">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/app_logo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/splash_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Trending"
+        app:layout_constraintTop_toBottomOf="@id/app_logo"
+        android:layout_marginTop="180dp"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-condensed"
+        app:layout_constraintStart_toStartOf="@id/app_logo"
+        app:layout_constraintEnd_toEndOf="@id/app_logo"
+        android:textSize="16sp"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movies &amp; Shows..."
+        android:textColor="@color/light_green"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-condensed"
+        app:layout_constraintStart_toStartOf="@id/app_logo"
+        app:layout_constraintEnd_toEndOf="@id/app_logo"
+        android:textSize="16sp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
