@@ -1,2 +1,5 @@
 # Cinephile
-Not for now, we will update here soon
+
+## So this application fetch the Trending Movies and Tvshows...
+
+### I have used TMDB Api for movies data...
