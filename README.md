@@ -11,5 +11,5 @@
 ![](https://github.com/Abhishek4uh/Cinephile/blob/master/cinephile.png)
 
 
-[![Youtube Link](https://github.com/Abhishek4uh/Cinephile/blob/master/app/src/main/res/mipmap-mdpi/movie_logo.jpg)](https://www.youtube.com/watch?v=UAQTr-Jg2i4)
+[Youtube Link](https://www.youtube.com/watch?v=UAQTr-Jg2i4)
 
